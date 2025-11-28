@@ -1,0 +1,18 @@
+= AOC Solutions
+
+.Year 2016
+|===
+| Name | Difficulty | Solutions | Topics | Tags
+
+| https://adventofcode.com/2016/day/8[Day 8: Two-Factor Authentication]
+| Easy
+| link:16/8-Two-Factor-Authentication/solution.exs[Elixir]
+| Parsing, Simulation
+| IO, String (Regex), Basic Container, Iteration
+
+| https://adventofcode.com/2016/day/9[Day 9: Explosives in Cyberspace]
+| Hard
+| link:16/9-Explosives-in-Cyberspace/solution.exs[Elixir]
+| Parsing, Recursive Descendant, State Machine
+| IO, String (Pattern Matching)
+|===
