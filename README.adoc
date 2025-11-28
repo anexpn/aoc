@@ -15,4 +15,10 @@
 | link:16/9-Explosives-in-Cyberspace/solution.exs[Elixir]
 | Parsing, Recursive Descendant, State Machine
 | IO, String (Pattern Matching)
+
+| https://adventofcode.com/2016/day/10[Day 10: Balance Bots]
+| Medium
+| link:16/10-Balance-Bots/solution.exs[Elixir]
+| Parsing, Simulation
+| IO, String (Regex), Basic Container, Iteration
 |===
