@@ -1,0 +1,29 @@
+BFS.
+
+* [x] Design state representation
+** RTG & Microchips: {1, :g}, {1, :m}
+** Floors: 
++
+[source, elixir]
+----
+%{1 => MapSet.new([{1, :m}, {2, :m}]), 2 => MapSet.new([{1, :g}]), 3 => MapSet.new([{2, :g}]), 4 => MapSet.new([])}
+----
+** Elevator: 1..4
+* [x] Parse input into state
+** Parsing (Regex)
+** Assign unique IDs
+* [x] Next states function
+** Up or Down
+** Select 1 or 2 from all
+*** Cut invalid combinations
+* [x] Valid state function
+** In the elevator floor: all :g have matched :m, or there is no :m
+* [x] Goal state function
+** 1 & 2 & 3 empty
+* [x] BFS
+** Queue: use Erlang's `:queue`
+* [x] Cut branches
+** Some states can be considered equivalent
++
+Same g-m distribution and matching.
+Normalize the floors state.

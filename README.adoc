@@ -21,4 +21,10 @@
 | link:16/10-Balance-Bots/solution.exs[Elixir]
 | Parsing, Simulation
 | IO, String (Regex), Basic Container, Iteration
+
+| https://adventofcode.com/2016/day/11[Day 11: Radioisotope Thermoelectric Generators]
+| Hard
+| link:16/11-Radioisotope-Thermoelectric-Generators/solution.exs[Elixir]
+| Parsing, Algorithm (BFS)
+| IO, String (Regex), Queue, Set, Recursion
 |===
