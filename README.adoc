@@ -27,4 +27,10 @@
 | link:16/11-Radioisotope-Thermoelectric-Generators/solution.exs[Elixir]
 | Parsing, Algorithm (BFS)
 | IO, String (Regex), Queue, Set, Recursion
+
+| https://adventofcode.com/2016/day/12[Day 12: Leonardo's Monorail]
+| Easy
+| link:16/12-Leonardo-s-Monorail/solution.exs[Elixir]
+| Parsing, Virtual Machine
+| IO, String (Split), Array, Recursion
 |===
