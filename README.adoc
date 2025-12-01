@@ -1,5 +1,16 @@
 = AOC Solutions
 
+.Year 2025
+|===
+| Name | Difficulty | Solutions | Topics | Tags
+
+| https://adventofcode.com/2025/day/1[Day 1: Secret Entrance]
+| Tricky
+| link:25/1-Secret-Entrance/solution.exs[Elixir]
+| Math
+| Math, Iteration
+|===
+
 .Year 2016
 |===
 | Name | Difficulty | Solutions | Topics | Tags
