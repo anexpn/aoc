@@ -1,0 +1,21 @@
+= Gift Shop
+
+== Part 1 
+
+简单的中间分开判等。
+
+== Part 2
+
+一开始想 DP，但没有递归子结构。
+
+遍历字符串，记录状态 `match_idx`.
+每次 `new_char == str[match_idx]` 时，递增 `match_idx`, 否则 `match_idx` 置零。
+到遍历结束时，`match_idx` 不为零则代表找到目标。
+
+ 不太行，Bad Case: 1001
+
+尝试显式排除这种 Bad Case: 结束时检查 `str[match_idx] == str[0]`
+ 
+ 还是有 Bad Case: 36310736
+
+正确解法是暴力解法，遍历 `1` 到 `length/2`, 对于每个长度，取子字符串重复直到和原来一样长，再比较是否相等。

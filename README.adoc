@@ -9,6 +9,12 @@
 | link:25/1-Secret-Entrance/solution.exs[Elixir]
 | Math
 | Math, Iteration
+
+| https://adventofcode.com/2025/day/2[Day 2: Gift Shop]
+| Tricky
+| link:25/2-Gift-Shop/solution.exs[Elixir]
+| String
+| String
 |===
 
 .Year 2016
