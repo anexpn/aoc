@@ -15,7 +15,15 @@
 | link:25/2-Gift-Shop/solution.exs[Elixir]
 | String
 | String
+
+| https://adventofcode.com/2025/day/3[Day 3: Lobby]
+| Medium
+| link:25/3-Lobby/solution.exs[Elixir]
+| String
+| String, Iteration
 |===
+
+'''
 
 .Year 2016
 |===

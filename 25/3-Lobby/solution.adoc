@@ -1,0 +1,52 @@
+= Lobby
+
+== Part 1
+
+遍历，记录见到的最大的数和它右边最大的数。
+最大的数更新时，要重置右边最大的数这个状态。
+边界：到最后一个数时，不能重置。
+
+== Part 2
+
+长为 12 的最大数字子序列。
+
+对第 `i` 个数，如果它要取代序列中第 `k` 个数，那么右边至少要有 `12-k-1` 个数。
+也就是说，`n-1-i >= 12-k-1` => `k >= 12 + i - n`。
+
+对每个数，遍历当前序列，找到第一个满足 `k >= 12 + i - n` 的位置，且该位置的数小于当前数，则替换掉该位置的数，且重置右边的数。
+
+.Claude 给出的另外的做法
+....
+Key insight: To maximize the result:
+- The 1st digit should be the maximum in range [0, n-12] (need to leave 11 more)
+- The 2nd digit should be the maximum in range [after_1st, n-11] (need to leave 10 more)
+- The 3rd digit should be the maximum in range [after_2nd, n-10] (need to leave 9 more)
+- ...and so on
+
+Here's a different algorithm:
+
+def max_joltage_2(line) do
+  digits = for <<c <- line>>, do: c - ?0
+  len = length(digits)
+
+  # For each of the 12 positions in result
+  {result, _} =
+    Enum.reduce(0..11, {[], 0}, fn k, {result, start_pos} ->
+      # How many more digits do we need after this position?
+      remaining_needed = 11 - k
+      # Latest position we can pick from
+      end_pos = len - remaining_needed - 1
+
+      # Find the maximum digit in valid range
+      {max_digit, max_pos} =
+        digits
+        |> Enum.slice(start_pos..end_pos)
+        |> Enum.with_index(start_pos)
+        |> Enum.max_by(fn {digit, _pos} -> digit end)
+
+      {result ++ [max_digit], max_pos + 1}
+    end)
+
+  result |> Enum.reduce(0, &(&2 * 10 + &1))
+end
+....
