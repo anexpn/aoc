@@ -21,6 +21,12 @@
 | link:25/3-Lobby/solution.exs[Elixir]
 | String
 | String, Iteration
+
+| https://adventofcode.com/2025/day/4[Day 4: Printing Department]
+| Easy
+| link:25/4-Printing-Department/solution.exs[Elixir]
+| Counting
+| Set, Iteration
 |===
 
 '''
