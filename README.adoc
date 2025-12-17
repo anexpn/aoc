@@ -27,6 +27,12 @@
 | link:25/4-Printing-Department/solution.exs[Elixir]
 | Counting
 | Set, Iteration
+
+| https://adventofcode.com/2025/day/5[Day 5: Cafeteria]
+| Easy
+| link:25/5-Cafeteria/solution.janet[Janet]
+| Parsing, Counting, Interval
+| Iteration
 |===
 
 '''
