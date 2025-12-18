@@ -33,6 +33,12 @@
 | link:25/5-Cafeteria/solution.janet[Janet]
 | Parsing, Counting, Interval
 | Iteration
+
+| https://adventofcode.com/2025/day/6[Day 6: Trash Compactor]
+| Medium
+| link:25/6-Trash-Compactor/solution.janet[Janet]
+| Parsing
+| Iteration
 |===
 
 '''
