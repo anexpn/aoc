@@ -36,7 +36,7 @@
 
 | https://adventofcode.com/2025/day/6[Day 6: Trash Compactor]
 | Medium
-| link:25/6-Trash-Compactor/solution.janet[Janet]
+| link:25/6-Trash-Compactor/solution.janet[Janet], link:25/6-Trash-Compactor/solution.clj[Clojure]
 | Parsing
 | Iteration
 |===
