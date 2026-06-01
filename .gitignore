@@ -67,3 +67,4 @@ erl_crash.dump
 .elixir_ls/
 
 README.html
+.nrepl-port

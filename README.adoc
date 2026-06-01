@@ -39,6 +39,12 @@
 | link:25/6-Trash-Compactor/solution.janet[Janet], link:25/6-Trash-Compactor/solution.clj[Clojure]
 | Parsing
 | Iteration
+
+| https://adventofcode.com/2025/day/7[Day 7: Laboratories]
+| Medium
+| link:25/7-Laboratories/solution.clj[Clojure]
+| DP
+| DP, Iteration
 |===
 
 '''
