@@ -45,6 +45,12 @@
 | link:25/7-Laboratories/solution.clj[Clojure]
 | DP
 | DP, Iteration
+
+| https://adventofcode.com/2025/day/8[Day 8: Playground]
+| Medium
+| link:25/8-Playground/solution.clj[Clojure], link:25/8-Playground/solution2.clj[Clojure v2]
+| Graph, Geometry
+| Union-Find, Sorting, Iteration
 |===
 
 '''
