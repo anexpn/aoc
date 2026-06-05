@@ -68,3 +68,4 @@ erl_crash.dump
 
 README.html
 .nrepl-port
+/.agent-shell/
